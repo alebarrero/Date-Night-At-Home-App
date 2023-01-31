@@ -19,5 +19,62 @@
 .orange-text {
     color: crimson;
 
+}
 
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 85px;
+  line-height: 1.15;
+
+}
+h2{
+  font-family: 'Calligraffitti', cursive;
+}
+
+h4{
+  font-family:'Lobster',cursive;
+  font-size: 50px;
+  color: rgb(35, 34, 34);
+}
+
+h5 , p {
+  font-family: 'Encode Sans', sans-serif;
+  color: white;
+  text-align: center;
+
+}
+
+
+#random-movie-button{
+  background-color: lightcoral;
+  border-radius: 25px;
+}
+#random-movie-button:hover{
+  background-color: pink;
+}
+
+
+#recipe-button{
+  background-color: lightcoral;
+  border-radius: 25px;
+}
+#recipe-button:hover{
+  background-color: pink;
+}
+  
+#recipe-div{
+  overflow-y: scroll;
+  height: 400px;
+  overflow: auto;
+}
+
+.mov-col{
+  justify-content: space-between;
+
+}
+
+#movieImage{
+  justify-content: center;
 }
