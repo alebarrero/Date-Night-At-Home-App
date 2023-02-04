@@ -1,5 +1,5 @@
 # Date-Night-At-Home-App
-##Team 4, Date Night In A flash 
+### Team 4, Alejandra Barrero & Danny Martinez  - Date Night In A flash 
 
 
 # Project Presentation and description 
@@ -14,7 +14,7 @@ https://github.com/alebarrero/Date-Night-At-Home-App
 https://alebarrero.github.io/Date-Night-At-Home-App/
 
 ## Screenshot
-<img src="https://github.com/DannyAe/BOOTCAMP-CHALLENGE-6-FIVDE-DAY-WEATHER-FORECAST-API/blob/main/assets/weatherapp.png?raw=true" alt="date night in a flash">
+<img src="https://github.com/alebarrero/Date-Night-At-Home-App/blob/main/dniaf-screenshot.png?raw=true?raw=true" alt="date night in a flash">
 
 
 
