@@ -1,5 +1,6 @@
-// 	const body = document.body
-	// body.append("test")
+
+//create constants and "never vars"
+
 	let randomMovieButton=document.getElementById("random-movie-button");
 	randomMovieButton.addEventListener("click",displayMovie)
 	let randomRecipeButton=document.getElementById("recipe-button");
@@ -18,15 +19,9 @@
 			  'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
 			}
 		  };
-		// const options = {
-		// 	method: 'GET',
-		// 	params:{titleType:"movie"},
-		// 	headers: {
-		// 		'X-RapidAPI-Key': '4cc24add61mshaefd388a3de842fp16df08jsnd17fb033b479',
-		// 		'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
-		// 	}
-		// };
 		
+//*1st API showing random movies*//		
+	
 		fetch('https://moviesdatabase.p.rapidapi.com/titles?titleType=movie&genre=Romance&endYear=2023&startYear=2021&limit=50',options)
 		
 			.then(response => response.json())
@@ -48,7 +43,9 @@
 	}
 	displayMovie()
 
-	//*2nd API showing random recipes*//
+
+
+//*2nd API showing random recipes*//
 
 	const options = {
 		method: 'GET',
@@ -73,14 +70,7 @@
 					'X-RapidAPI-Host': 'recipe-by-api-ninjas.p.rapidapi.com'
 				}
 			};
-			// const options = {
-			// 	method: 'GET',
-			// 	params:{titleType:"movie"},
-			// 	headers: {
-			// 		'X-RapidAPI-Key': '4cc24add61mshaefd388a3de842fp16df08jsnd17fb033b479',
-			// 		'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
-			// 	}
-			// };
+			
 			
 			fetch('https://recipe-by-api-ninjas.p.rapidapi.com/v1/recipe?query=italian', options)
 		.then(response => response.json())
